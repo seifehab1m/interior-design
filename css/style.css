@@ -1,0 +1,108 @@
+:root {
+
+    --MainColor: rgb(255, 165, 0)
+}
+
+nav img {
+    width: 90px;
+}
+
+nav li {
+    padding-left: 20px;
+    text-align: center;
+}
+
+nav li a {
+    font-weight: 400 !important;
+    color: var(--MainColor) !important;
+    border-radius: 20px;
+}
+
+nav li :hover {
+    background-color: var(--MainColor);
+    color: white !important;
+}
+
+header {
+
+    height: 100vh;
+    background-image: url(../images/home-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+h1 {
+    color: var(--MainColor);
+
+    font-size: 60px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+/* ABOUT SECTION */
+
+.title {
+    font-size: 18px;
+    letter-spacing: 10px;
+    text-decoration: underline;
+    text-decoration-color: var(--MainColor);
+    text-decoration-style: solid;
+    text-underline-offset: -40%;
+}
+
+.image img {
+    object-fit: cover;
+    box-shadow: 15px 15px 0 var(--MainColor);
+}
+
+/* Service SECTION */
+.ServiceSec .col-lg-2 {
+
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color: var(--MainColor) !important;
+}
+
+.ServiceSec i {
+    padding: 10px 0px 20px 0px;
+    color: var(--MainColor);
+    font-size: 40px;
+}
+
+/* Project SECTION */
+.projectSec img
+{
+    cursor: pointer;
+    width: 100%;
+}
+.imageBackground
+{
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+.imageSelected
+{
+    height: 50%;
+    width: 50%;
+    background-image: url(../images/img-1.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.imageSelected .icon
+{
+    
+    right: 15;
+    top: 15;
+    
+}
+.imageBackground i
+{
+    cursor: pointer;
+    color: var(--MainColor);
+    font-size: 35px;
+
+    
+}

@@ -1,0 +1,25 @@
+@media all and (max-width:499px) {
+
+    h1 {
+
+        font-size: 30px;
+        font-family: "Times New Roman", Times, serif;
+    }
+    
+
+}
+
+@media all and (max-width:767px) and (min-width: 500px) {
+
+
+    h1 {
+        font-size: 40px;
+        font-family: "Times New Roman", Times, serif;
+
+    }
+
+ 
+
+}
+
+@media all and (max-width:979px) and (min-width:768px) {}
